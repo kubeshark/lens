@@ -1,42 +1,52 @@
-# Kubeshark K8sLens Extension 
+## Kubeshark K8sLens Extension
 
-This extension allows you to use K8sLens and Kubeshark to view real-time traffic for the following Kubernetes components:
+This extension enables you to use K8sLens and Kubeshark to view real-time traffic for various Kubernetes components, including:
+
 - Namespace
 - Nodes
 - Pod
-- Service 
+- Service
 
 ## How to View
 
-When this extension is loaded, a new menu item appears for the specific Kubernetes component. The menu item indicates that you can view real-time traffic for the specific component. Pressing the menu item will open Kubeshark and will present the traffic associated with the K8s component.
+Once this extension is loaded, a new menu item will appear for each specific Kubernetes component. This menu item indicates that you can view real-time traffic for the corresponding component. By clicking on the menu item, Kubeshark will open and present the traffic associated with the selected K8s component.
 
-Foe example, if I'd like to view traffic in a certain namespace, I should follow these steps:
-1. Find the namespace in the K8s Lens 
-2. Find and click the menu item that indicates viewing traffic for that namespace
+For example, if you want to view traffic in a particular namespace, follow these steps:
+
+1. Find the namespace in K8sLens.
+2. Locate and click on the menu item that indicates viewing traffic for that namespace.
 
 ![Right click to view traffic](/assets/menu-item.png)
 
-## How to install the extension
-1. Open Lens and navigate to the Extensions page (or press Command + Shift+E on macOS).
+## How to Install the Extension
 
-2. Enter https://registry.npmjs.org/lens-extension/-/lens-extension-0.0.1.tgz into the Install Extension box
-
-3. Click on the Install button.
+1. Open Lens and navigate to the Extensions page (or press Command + Shift + E on macOS).
+2. Enter the following URL into the Install Extension box: `https://registry.npmjs.org/lens-extension/-/lens-extension-0.0.1.tgz`
+3. Click the Install button.
 
 ## Prerequisites
 
-- Kubeshark installed. Read more here: https://docs.kubeshark.co/
-- Extension installed and activated
+Before using this extension, ensure the following prerequisites are met:
+
+1. Kubeshark is installed. Read more about Kubeshark here: https://docs.kubeshark.co/
+2. The extension is installed and activated.
 
 ## Preferences
 
-Kubeshark URL should be entered in the preference page. The default is: http://localhost:8899/. 
+In the preference page, you can enter the Kubeshark URL. The default URL is `http://localhost:8899/`.
 
 ## Limitations
 
-Please keep in mind that Kubeshark will show traffic only under the following circumstances:
-1. Component is active and is either receiving or generating traffic
-2. Kubeshark was able to capture and dissect the traffic (there are many reason why that might have not happened)
+Please note the following limitations of Kubeshark:
+
+Kubeshark will only display traffic under the following circumstances:
+- The component is active and either receiving or generating traffic.
+- Kubeshark successfully captures and dissects the traffic (there could be various reasons why this may not happen).
 
 ## What is Kubeshark
-Kubeshark is an API Traffic Analyzer for Kubernetes providing real-time, protocol-level visibility into Kubernetes’ internal network, capturing, dissecting and monitoring all traffic and payloads going in, out and across containers, pods, nodes and clusters. Think TCPDump and Wireshark re-invented for Kubernetes.
+
+Kubeshark is an API Traffic Analyzer for Kubernetes that provides real-time, protocol-level visibility into Kubernetes' internal network. It captures, dissects, and monitors all traffic and payloads going in, out, and across containers, pods, nodes, and clusters. Think of it as TCPDump and Wireshark reinvented for Kubernetes. You can read more about it [here](https://kubeshark.co/).
+
+
+
+
