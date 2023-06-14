@@ -6,13 +6,13 @@ export type KubesharkPreferenceModel = {
 }
 
 export class KubesharkPreferenceStore extends Common.Store.ExtensionStore<KubesharkPreferenceModel>{
-    @observable url = "https://localhost:8899/";
+    @observable url = "http://localhost:8899/";
 
     constructor() {
       super({
         configName: "kubeshark-preference-store",
         defaults: {
-          url: "https://localhost:8899/"
+          url: "http://localhost:8899/"
         }
       });
       makeObservable(this);

@@ -18,6 +18,10 @@ For example, if you want to view traffic in a particular namespace, follow these
 
 ![Right click to view traffic](/assets/menu-item.png)
 
+Once you press the menu item, Kubeshark's dashboard will open automatically configured to filter traffic related only to the selected Kubernetes component. 
+
+![View real-time traffic](/assets/kubeshark.png)
+
 ## How to Install the Extension
 
 1. Open Lens and navigate to the Extensions page (or press Command + Shift + E on macOS).
@@ -35,9 +39,9 @@ Before using this extension, ensure the following prerequisites are met:
 
 In the preference page, you can enter the Kubeshark URL. The default URL is `http://localhost:8899/`.
 
-## Limitations
+![Enter Kubeshark URL](/assets/preferences.png)
 
-Please note the following limitations of Kubeshark:
+## Limitations
 
 Kubeshark will only display traffic under the following circumstances:
 - The component is active and either receiving or generating traffic.
