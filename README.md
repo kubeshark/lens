@@ -21,7 +21,7 @@ For example, if you want to view traffic in a particular namespace, follow these
 ## How to Install the Extension
 
 1. Open Lens and navigate to the Extensions page (or press Command + Shift + E on macOS).
-2. Enter the following URL into the Install Extension box: `https://registry.npmjs.org/lens-extension/-/lens-extension-0.0.1.tgz`
+2. Enter the following URL into the Install Extension box: `@kubeshark/lens`
 3. Click the Install button.
 
 ## Prerequisites
