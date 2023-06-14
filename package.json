@@ -1,8 +1,8 @@
 {
-	"name": "kubeshark-lens",
+	"name": "lens-extension",
 	"version": "0.0.1",
 	"description": "Kubeshark extension ",
-	"publisher": "@kubeshark-lens/kubeshark-lens",
+	"publisher": "kubeshark",
 	"main": "dist/main.js",
 	"renderer": "dist/renderer.js",
 	"engines": {
@@ -13,7 +13,9 @@
 		"lens",
 		"extension",
 		"k8slens",
-		"kubernetes"
+		"kubernetes",
+		"kubeshark",
+		"wireshark"
 	],
 	"scripts": {
 		"start": "NODE_ENV=development webpack --watch",
