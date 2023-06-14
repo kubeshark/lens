@@ -54,5 +54,5 @@ Kubeshark is an API Traffic Analyzer for Kubernetes that provides real-time, pro
 ## And Now In Video
 
 
-![Install Kubeshark-Lens Extension](https://img.youtube.com/vi/corWPtp9hrI/0.jpg)](https://www.youtube.com/watch?v=corWPtp9hrI)
+[![Install Kubeshark-Lens Extension](https://img.youtube.com/vi/corWPtp9hrI/0.jpg)](https://www.youtube.com/watch?v=corWPtp9hrI)
 
